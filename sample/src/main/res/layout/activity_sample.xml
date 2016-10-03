@@ -6,13 +6,13 @@
 
     <ListView
         android:id="@+id/list"
-        android:padding="8dp"
-        android:clipChildren="true"
-        android:clipToPadding="false"
-        android:overScrollMode="always"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:clipChildren="true"
+        android:clipToPadding="false"
         android:drawSelectorOnTop="true"
+        android:overScrollMode="always"
+        android:padding="8dp"
         tools:listitem="@layout/layout_item"/>
 
     <dreamers.sample.FloatingActionButton
@@ -21,7 +21,6 @@
         android:layout_height="56dp"
         android:layout_gravity="right|bottom"
         android:layout_margin="16dp"
-        android:src="@drawable/abc_ic_search_api_mtrl_alpha"
-        />
+        android:src="@drawable/ic_magnify"/>
 
 </FrameLayout>

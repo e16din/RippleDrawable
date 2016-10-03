@@ -5,7 +5,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ImageButton;
 
-public class FloatingActionButton extends ImageButton{
+public class FloatingActionButton extends ImageButton {
 
     public FloatingActionButton(Context context) {
         this(context, null);
